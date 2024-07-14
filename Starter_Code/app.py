@@ -10,7 +10,7 @@ from sqlalchemy import create_engine, func, and_
 
 from flask import Flask, jsonify
 
-engine = create_engine("sqlite:////users/loutz/module 10/sql-alchemy/starter_code/Resources/hawaii.sqlite")
+engine = create_engine("sqlite:///../Resources/hawaii.sqlite")
 
 # reflect an existing database into a new model
 Base = automap_base()
